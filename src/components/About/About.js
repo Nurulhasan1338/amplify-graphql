@@ -65,7 +65,7 @@ export default function Skill() {
                 <p> {para}</p>
               </Col>
               <Col>
-                <h2 className="reveal">Eduacation</h2>
+                <h2 className="reveal">Education</h2>
                 <div className="edu reveal">
                   {edu.map((element) => {
                     return (

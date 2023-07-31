@@ -5,26 +5,40 @@ import img1 from "../../assets/img/textLab (2).png";
 import img2 from "../../assets/img/news.jpeg";
 import img3 from "../../assets/img/img3 (2).png";
 import img4 from "../../assets/img/color-sharp2.png";
+import img6 from "../../assets/img/codeBattle.jpg";
+import img5 from "../../assets/img/Mynote.png";
 
 export default function Project() {
   const project = [
     {
-      title: "News Application",
+      title: "NEWS APP",
       proImg: img2,
       li: "https://nurulhasan1338.github.io/News_app/",
       des: "Built in react  Using News API.",
     },
     {
-      title: "Text utility app",
+      title: "TEXT UTILS",
       proImg: img1,
       li: "https://nurulhasan1338.github.io/text-lab/#/text-lab",
       des: "A simple text editor",
     },
     {
-      title: "E-commerse website",
+      title: "ECOMMERCE WEBSITE",
       proImg: img3,
       li: "https://github.com/Nurulhasan1338/fullStackprojects",
-      des: "Built from scratch",
+      des: "HTML, CSS, PHP, MySQL",
+    },
+    {
+      title: "ONLINE JUDGE",
+      proImg: img6,
+      li: "https://github.com/Nurulhasan1338/onlineJudge",
+      des: "MERN Application : Docker,ReactJs,Material UI, NodeJS,ExpressJs",
+    },
+    {
+      title: "MY NOTE ",
+      proImg: img5,
+      li: "https://github.com/Nurulhasan1338/myNote",
+      des: "MERN Application online note making app",
     },
   ];
 

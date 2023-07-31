@@ -110,8 +110,8 @@
     0%{
         opacity: 0;
     }
-    100%{
-      opacity: 1;
+    50%{
+      opacity: 0;
     }
     100%{
         opacity: 1;
@@ -144,7 +144,7 @@
    position: relative;
    transform: translateY(150px);
    opacity: 0;
-   transition: 1s all ease;
+   transition: 3s all ease;
  }
  
  .reveal.active{

@@ -22,11 +22,19 @@ export default function Skill() {
       }
     },
     { 
-      name: "Javascript",
+      name: "NodeJs",
       percent: 60,
       styl:{
       "--clr": "yellow",
       "--num":"60"
+      }
+    },
+    { 
+      name: "ExpressJs",
+      percent: 50,
+      styl:{
+      "--clr": "yellow",
+      "--num":"50"
       }
     },
     {
@@ -38,7 +46,7 @@ export default function Skill() {
       }
     },
     {
-      name: "Php",
+      name: "MongoDB",
       percent: 55,
       styl:{
       "--clr": "orange",
@@ -54,7 +62,7 @@ export default function Skill() {
       }
     },
     {
-      name: "react",
+      name: "React.js",
       percent: 60,
       styl:{
       "--clr":"pink",
@@ -65,10 +73,34 @@ export default function Skill() {
       name: "Bootstrap",
       percent: 70,
       styl: {
-      "--clr": "blue",
+      "--clr": "green",
       "--num": "70"
       }
     },
+    {
+      name: "Material UI",
+      percent: 60,
+      styl: {
+      "--clr": "green",
+      "--num": "60"
+      }
+    },
+    {
+      name: "Docker",
+      percent: 60,
+      styl: {
+      "--clr": "blue",
+      "--num": "60"
+      }
+    },
+    {
+      name: "Git",
+      percent: 70,
+      styl: {
+      "--clr": "#ff002b",
+      "--num": "60"
+      }
+    }
   ];
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
