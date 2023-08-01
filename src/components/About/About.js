@@ -4,10 +4,11 @@ import "./skill.css";
 import anna from "../../assets/img/annapurna.png";
 import shivjoti from "../../assets/img/shivjoti.jpg";
 import iiit from "../../assets/img/iitlogo.png";
-import colorSharp from "../../assets/img/color-sharp (1).png";
+import colorSharp from "../../assets/img/color-sharp1.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 
 export default function Skill() {
+  // eslint-disable-next-line
   const [para,setPara] = useState(" Hello there! My name is Nurul Hasan, and I am a dedicated and enthusiastic Computer  Science Engineering undergraduate from IIIT Kota. As a full-stack developer, I have a strong foundation in both front-end and back-end technologies, which enables me to create stunning and functional websites. I am passionate about software development and am actively seeking opportunities to showcase my skills and contribute to innovative projects. I have worked on several exciting projects, which have equipped me with a diverse range of technical skills, including proficiency in programming languages such as JavaScript, Python, and C++.");
 
   const edu = [

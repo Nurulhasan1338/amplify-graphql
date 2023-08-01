@@ -2,8 +2,7 @@ import React, { useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import emailjs from "@emailjs/browser";
 import "./this.css";
-import colorSharp from "../../assets/img/color-sharp (1).png"
-import colorSharp2 from "../../assets/img/color-sharp2.png"
+
 
 export default function Contact() {
   const form = useRef();

@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row} from "react-bootstrap";
 import { ProjectCom } from "./projectCom.js";
-import img1 from "../../assets/img/textLab (2).png";
+import img1 from "../../assets/img/textLab.png";
 import img2 from "../../assets/img/news.jpeg";
-import img3 from "../../assets/img/img3 (2).png";
+import img3 from "../../assets/img/img3.png";
 import img4 from "../../assets/img/color-sharp2.png";
 import img6 from "../../assets/img/codeBattle.jpg";
 import img5 from "../../assets/img/Mynote.png";
@@ -11,16 +11,16 @@ import img5 from "../../assets/img/Mynote.png";
 export default function Project() {
   const project = [
     {
-      title: "NEWS APP",
-      proImg: img2,
-      li: "https://nurulhasan1338.github.io/News_app/",
-      des: "Built in react  Using News API.",
-    },
-    {
       title: "TEXT UTILS",
       proImg: img1,
       li: "https://nurulhasan1338.github.io/text-lab/#/text-lab",
       des: "A simple text editor",
+    },
+    {
+      title: "NEWS APP",
+      proImg: img2,
+      li: "https://nurulhasan1338.github.io/News_app/",
+      des: "Built in react  Using News API.",
     },
     {
       title: "ECOMMERCE WEBSITE",
