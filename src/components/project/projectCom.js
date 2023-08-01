@@ -4,7 +4,7 @@ import "./project.css";
 
 export const ProjectCom = ({title,des,proImg,li}) => {
   return (
-    <Col sm={6} md={4}>
+    <Col sm={6} md={4} lg={4.5}>
         <div className="proj-imgbx">
            <img src={proImg} alt="" />
             <div className="proj-txtx">

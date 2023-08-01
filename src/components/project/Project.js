@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row} from "react-bootstrap";
 import { ProjectCom } from "./projectCom.js";
 import img1 from "../../assets/img/textLab.png";
-import img2 from "../../assets/img/news.jpeg";
+import img2 from "../../assets/img/news.png";
 import img3 from "../../assets/img/img3.png";
 import img4 from "../../assets/img/color-sharp2.png";
 import img6 from "../../assets/img/codeBattle.jpg";
@@ -62,17 +62,17 @@ export default function Project() {
     <section className="project" id="project">
       {window.addEventListener("scroll", reveal)}
       <Container className="reveal">
-        <Row>
             <h2 className="mb-5">Project</h2>
             <br />
+        <Row>
               {project.map((projcts, index) => {
-                      return (
-                        <ProjectCom
-                          key={index}
-                          {...projcts }
-                        />  
-                      )
-                    })}
+                return (
+                  <ProjectCom
+                  key={index}
+                  {...projcts }
+                  />  
+                  )
+                })}
 
         </Row>
       </Container>
