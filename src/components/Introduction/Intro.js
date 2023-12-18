@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import {Container,Row,Col} from "react-bootstrap"
 import ProfilePic from './profilepic';
-import cv from "../../assets/Nurul_Hasan.pdf";
 
 export default function Intro() {
     const [loopNum,setLoopNum] =useState(0);
@@ -48,7 +47,7 @@ export default function Intro() {
             <Col xs={12} md={6} xl={7}>
                 <h1 className='txt-rotate'>{`Hii I'm`}<span className='wrap'> <br />{text}<span c></span></span></h1>
                 <p className='fs-5'>&#128526; My goal is to achieve excellence<br /></p>
-               <button className='downlode'> <a href={cv} download >Download resume</a></button>
+               <button className='downlode'> <a href="https://drive.google.com/file/d/1HkTjnsCYBKULTEGg65MjV89rvXHqv_pV/view" target='blank'>Resume</a></button>
             </Col>
         </Row>
         </Container>
