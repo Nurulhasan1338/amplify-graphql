@@ -7,6 +7,7 @@ import img3 from "../../assets/img/img3.png";
 import img4 from "../../assets/img/color-sharp2.png";
 import img6 from "../../assets/img/codeBattle.jpg";
 import img5 from "../../assets/img/Mynote.png";
+import img7 from "../../assets/img/emptycup_logo.jpg";
 
 export default function Project() {
   const project = [
@@ -39,6 +40,12 @@ export default function Project() {
       proImg: img5,
       li: "https://github.com/Nurulhasan1338/myNote",
       des: "MERN Application online note making app",
+    },
+    {
+      title: "emptyCup clone",
+      proImg: img7,
+      li: "https://main.d215t4eadyylm4.amplifyapp.com/",
+      des: "MERN Application , Docker, Render for deployment",
     },
   ];
 
